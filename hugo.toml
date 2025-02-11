@@ -19,6 +19,5 @@ url = "https://www.linkedin.com/in/user/"
 name = "medium"
 url = "https://medium.com/@user"
 
-[params]
 homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
