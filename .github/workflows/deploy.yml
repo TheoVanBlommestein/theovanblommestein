@@ -18,10 +18,11 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build Site
-        run: hugo --minify  # This runs "hugo -D" and builds static files
+        run: hugo --minify  # This runs "hugo -D"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.GH_PAT }}  # Using the new PAT
           publish_dir: ./public
+          publish_branch: gh-pages  # This should match your GitHub Pages branch
