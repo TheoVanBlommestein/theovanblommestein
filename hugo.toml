@@ -1,0 +1,11 @@
+baseURL = "https://theovanblommestein.github.io/"
+languageCode = "en-us"
+title = "Theo van Blommestein"
+theme = "typo"
+
+[params]
+  author = "Theo van Blommestein"
+  description = "Welcome to my personal website!"
+  avatar = "/images/avatar.png"
+  favicon = "/favicon.ico"
+  showDarkMode = true
