@@ -4,11 +4,13 @@ title = "Theo van Blommestein"
 theme = "typo"
 
 [params]
-homeIntroTitle = 'Hi!'
+homeIntroTitle = 'Greetings!'
 
 homeIntroContent = """
-I am NOT an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems. 
-I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+My name is Theo van Blommestein (or Theodorus van Blommestein if you want to spite me). 
+I grew up in the Bay Area and I love magical realism and sci-fi. I am a Pre-med from Duke University.
+My heritage is a bit all over the place. Maybe I'll include it some other time. 
+The last name is Dutch-Indonesian.
 """
 
 [[params.social]]

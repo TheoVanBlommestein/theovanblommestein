@@ -3,7 +3,7 @@ name: Deploy Hugo Site
 on:
   push:
     branches:
-      - main  # Runs every time you push to "main"
+      - main  # Deploy when pushing to main
 
 jobs:
   build:
@@ -23,6 +23,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.GH_PAT }}  # Using the new PAT
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages  # This should match your GitHub Pages branch
+          publish_branch: gh-pages  # Pushes to gh-pages
