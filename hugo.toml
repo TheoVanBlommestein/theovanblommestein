@@ -9,3 +9,23 @@ theme = "typo"
   avatar = "/images/avatar.png"
   favicon = "/favicon.ico"
   showDarkMode = true
+
+[params]
+homeIntroTitle = 'Hi!'
+
+homeIntroContent = """
+I am NOT an Italian Software Engineer with a strong foundation in computer science and a passion for solving complex problems. 
+I am interested in a range of topics, including algorithms, distributed systems, databases, and information retrieval.
+"""
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/user/"
+
+[[params.social]]
+name = "medium"
+url = "https://medium.com/@user"
+
+[params]
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
