@@ -4,13 +4,6 @@ title = "Theo van Blommestein"
 theme = "typo"
 
 [params]
-  author = "Theo van Blommestein"
-  description = "Welcome to my personal website!"
-  avatar = "/images/avatar.png"
-  favicon = "/favicon.ico"
-  showDarkMode = true
-
-[params]
 homeIntroTitle = 'Hi!'
 
 homeIntroContent = """
