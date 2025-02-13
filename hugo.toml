@@ -2,6 +2,7 @@ baseURL = "https://theovanblommestein.github.io/"
 languageCode = "en-us"
 title = "Theo van Blommestein"
 theme = "typo"
+googleAnalytics = "G-5H0NDYY140"
 
 [params]
 homeIntroTitle = 'Greetings!'
