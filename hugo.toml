@@ -2,7 +2,11 @@ baseURL = "https://theovanblommestein.github.io/"
 languageCode = "en-us"
 title = "Theo van Blommestein"
 theme = "typo"
+
 googleAnalytics = "G-5H0NDYY140"
+
+[taxonomies]
+tag = 'tags'
 
 [params]
 homeIntroTitle = 'Greetings!'
@@ -10,17 +14,51 @@ homeIntroTitle = 'Greetings!'
 homeIntroContent = """
 My name is Theo van Blommestein (or Theodorus van Blommestein if you want to spite me). 
 I grew up in the Bay Area and I love magical realism and sci-fi. I am a Pre-med from Duke University.
-My heritage is a bit all over the place. Maybe I'll include it some other time. 
-The last name is Dutch-Indonesian.
+
+I am currently embarking on Bradbury's 52 Story challenge, where I attempt to write one short story per week for 52 weeks. Read more at my Substack below!
 """
 
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/user/"
-
-[[params.social]]
-name = "medium"
-url = "https://medium.com/@user"
-
+# Collection to display on home
 homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = true
+
+# Social icons
+[[params.social]]
+name = "substack"
+url = "https://theovanblommestein.substack.com/"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"

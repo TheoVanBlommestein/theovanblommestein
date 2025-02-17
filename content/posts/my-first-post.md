@@ -1,6 +1,7 @@
 ---
-title: "My First Blog Post"
+title: "Follow me at Substack"
 date: 2024-02-12
 ---
 
-Hello! This is my first post on my Hugo site using the Typo theme.
+Hello! Follow me on Substack to see my progress on the challenge.
+https://theovanblommestein.substack.com/
