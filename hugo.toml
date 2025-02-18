@@ -35,6 +35,10 @@ breadcrumbs = true
 name = "substack"
 url = "https://theovanblommestein.substack.com/"
 
+[[params.social]]
+name = "gmail"
+url = "mailto:van.blommestein@duke.edu"
+
 # Main menu pages
 [[params.menu]]
 name = "home"
