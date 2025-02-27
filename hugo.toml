@@ -33,7 +33,15 @@ breadcrumbs = true
 # Social icons
 [[params.social]]
 name = "substack"
-url = "https://theovanblommestein.substack.com/"
+url = "https://theovanblommestein.substack.com"
+
+[[params.social]]
+name = "x"
+url = "https://x.com/TheoVanBlomme"
+
+[[params.social]]
+name = "reddit"
+url="https://www.reddit.com/user/TheoVanBlommestein"
 
 [[params.social]]
 name = "gmail"
