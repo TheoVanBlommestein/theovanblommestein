@@ -5,7 +5,7 @@ draft: false
 summary: "Reflections on trains, movement, and history from Taiwan to Germany."
 ---
 
-Trains can serve as conduits for many things: an analogy for human connection, a metaphor for the mass displacement of underprivileged groups, or a self-perpetuating, self-contained system that could run for eternity given the right technology. 
+Trains can serve as conduits for many things: an analogy for human connection, a metaphor for mass displacement, or a self-perpetuating, self-contained system that could run for eternity given the right technology. 
 
 Trains can also be, well, trains. Sometimes I find myself standing inside the train, waving goodbye to faces that I may never see again. And, of course, sometimes I find myself waving the train goodbye. 
 
