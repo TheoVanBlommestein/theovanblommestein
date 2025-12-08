@@ -1,5 +1,5 @@
 ---
-title: "Follow me at Substack"
+title: "Theodore's Substack Page"
 date: 2024-02-12
 ---
 
